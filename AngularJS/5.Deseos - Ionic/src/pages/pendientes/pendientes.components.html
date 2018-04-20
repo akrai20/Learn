@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>Lista de pendientes</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ul>
+    <li *ngFor="let item of _listaDeseos.listas">
+      <ion-item>
+        BOTON!!
+      </ion-item>
+
+      <h4>{{item.nombre}}</h4>
+      <ion-list>
+        <ion-item>
+          <ion-icon ios="ios-arrow-dropdown-circle" md="md-arrow-dropdown-circle"></ion-icon>
+          Tetris
+        </ion-item>
+        <ion-item>
+          <ion-icon ios="ios-arrow-dropdown-circle" md="md-arrow-dropdown-circle"></ion-icon>
+          Tetris
+        </ion-item>
+        <ion-item>
+          <ion-icon ios="ios-arrow-dropdown-circle" md="md-arrow-dropdown-circle"></ion-icon>
+          Tetris
+        </ion-item>
+      </ion-list>
+
+    <ion-fab right bottom>
+      <button ion-fab color="primary"> <ion-icon ios="ios-add" md="md-add"></ion-icon></button>
+      <ion-fab-list side="left">
+      </ion-fab-list>
+    </ion-fab>
+
+
+    </li>
+  </ul>
+</ion-content>
